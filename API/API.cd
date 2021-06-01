@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="API.DynamoDbClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAAEAAAABEAAACAAAAAAAAAgABBAQQAA=</HashCode>
+      <FileName>Clients\DynamoDbClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.MapsClient">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAEAAAAAQAAAAAAAACAAAAQAAQAAAAEA=</HashCode>
+      <FileName>Clients\MapsClient.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="current_list" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="API.GoogleMapsController">
+    <Position X="8" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgCAAIBAAAIAAAAAAACIAAAIAAAAAAACABAAgA=</HashCode>
+      <FileName>Controllers\GoogleMapsController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_weatherClient" />
+      <Field Name="_dynamoDbClient" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="API.Extension" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\ToClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Full_Model">
+    <Position X="11" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Full_Model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="result" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="API.Main">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAAAAAIAAAAAAIAAAAAAKQAEAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\Full_Model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="geometry" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="API.Review" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAEAAAA=</HashCode>
+      <FileName>Models\Full_Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Opening_hours_2" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Models\Full_Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Return_model">
+    <Position X="17" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Output_model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="results" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="API.PlaceDbRepository" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAACIQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PlaceDbRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.List_Read_Models">
+    <Position X="14" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Reading_model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="results" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="API.Reading_Model">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAIAAAAAAAAAAAAAKQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Reading_model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="geometry" />
+      <Property Name="opening_hours" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="API.Geometry">
+    <Position X="14" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Reading_model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="location" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="API.Opening_hours">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Reading_model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Location">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Reading_model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.UserDbRepository" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMBAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Models\UserDbRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.UserResponse" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMBAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Models\UserResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Constants" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAABAAAAAAAAAAAAAAAgAAAEAAAAAAIAAAAIAAAAAA=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Program" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Startup" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="API.IDynamoDbClient">
+    <Position X="5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAABAAAACAAAAAAAAAgABAAQQAA=</HashCode>
+      <FileName>Clients\IDynamoDbClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
