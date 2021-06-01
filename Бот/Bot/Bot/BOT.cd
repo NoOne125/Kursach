@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bot.Model_Det">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model_Det.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="result" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bot.Main">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAIAAAAAAIAAAAAAKQAEAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Model_Det.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="opening_hours" />
+      <Property Name="reviews" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bot.Review">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAEAAAA=</HashCode>
+      <FileName>Model_Det.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bot.Opening_hours_2">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Model_Det.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bot.Model_List">
+    <Position X="11.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Model_List.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="results" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bot.Reading_Model">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAIAAAAAAAAAAAAAIQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model_List.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="geometry" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bot.Geometry">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model_List.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="location" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bot.Location">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model_List.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bot.Model_Pl">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAAAAAAEAACAAAQBAAAAYQAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Model_Pl.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="places" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bot.Model_Req">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAABAAgCAAAAAAgAIAAAAECEAARAAAAAAAAAAFDAAQ=</HashCode>
+      <FileName>Model_Req.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bot.Place">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAACIQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Place.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bot.Program">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAgAAAAAAIAMgAAgCIgAEAAAAAAZIICBIAHgIAAgM=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="local_inf" />
+      <Field Name="local_inf_2" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
